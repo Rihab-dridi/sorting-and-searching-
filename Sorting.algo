@@ -1,0 +1,21 @@
+ALGORITHM playing cards
+
+VAR
+    i, j, C: INTEGER;
+    arr : ARRAY_OF INTEGER[50];
+
+BEGIN
+    for i from 0 to arr.length-1 step 1 DO 
+      read arr[i]
+    End for 
+    read (C)
+    arr[i]:= c 
+    for i from 0 to arr.length-1 step 1 DO
+       for j from i+1 to arr.length-1 step 1 DO
+         if (c<= arr[j] ) then  ( arr[j+1 := arr[j] && arr[j]:= c )
+         break 
+         End if 
+        End for 
+    End for 
+          
+END
